@@ -15,7 +15,8 @@ further options of preprocessing.
 From the `./blocks-examples` root type in the in the command line:
 
 ```
-python -m machine_translation --num-batches XXX machine_translation/saved_state
+python machine_translation/prepare_data.py
+python -m machine_translation
 ```
 
 # Expected results:
