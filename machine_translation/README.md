@@ -1,9 +1,9 @@
 # Encoder-Decoder with search for machine translation.
-In this demo, encoder-decoder architecture with attention mechanism is used for
+In this demo an encoder-decoder architecture with an attention mechanism is used for
 machine translation. The attention mechanism is implemented according to
 [1]. The training data used is WMT15 Czech to English corpus, which you have
 to download, preprocess and put to your `datadir` in the config file. Note
-that, you can use `prepare_data.py` script to download and apply all the
+that you can use `prepare_data.py` script to download and apply all the
 preprocessing steps needed automatically.  Please see `prepare_data.py` for
 further options of preprocessing.
 
