@@ -20,9 +20,12 @@ python -m machine_translation
 ```
 
 # Expected results:
-Using a XXX gpu we got the following results after XXX hours in the test set:
+Using an NVIDIA Tesla K80 gpu we got the following results after 1 hour and 1200 iterations, on the first epoch.
 
 | Measure  | Score |
 | -------- |------ |
-| Cost  | XXX  |
+| Cost  | 123.59  |
 | Bleu  | XXX  |
+
+# Additional Notes:
+There is no support for CPU-only platforms at the moment. Make sure you are using a CUDA-enabled GPU with ~100MB of free space. 
